@@ -13,9 +13,9 @@ app.use(cors());
 
 // Get data 
 app.get("/data", async(req,res)=>{
-    const datas = await getData();
-    console.log(datas);
-    res.json(datas);
+    // const datas = await getData();
+    console.log("get data");
+    res.json("I got data");
 });
 
 // Get specific data 
